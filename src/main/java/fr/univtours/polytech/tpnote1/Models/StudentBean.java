@@ -17,11 +17,7 @@ public class StudentBean implements Serializable {
     @Column(name = "ID_STUDENT")
     private Integer idStudent;
 
-    @Column(name = "NAME")
-    private String name;
-
-    @Column(name = "FIRST_NAME")
-    private String firstName;
+    
 
     public Integer getIdStudent() {
         return idStudent;
@@ -31,20 +27,5 @@ public class StudentBean implements Serializable {
         this.idStudent = idStudent;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
 }
