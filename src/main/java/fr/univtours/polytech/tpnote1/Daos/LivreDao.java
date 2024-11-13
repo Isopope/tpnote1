@@ -7,9 +7,8 @@ import fr.univtours.polytech.tpnote1.Models.LivreBean;
 public interface LivreDao {
     public List<LivreBean> getAllLivre();
 
-    public LivreBean getOneLivre();
+    public LivreBean getOneLivre(Integer id);
 
-    public List<LivreBean> getAllBooks();
 
     public LivreBean findBookById(Integer bookId);
 
