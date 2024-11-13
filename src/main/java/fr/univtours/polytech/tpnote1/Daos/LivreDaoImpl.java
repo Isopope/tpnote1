@@ -20,9 +20,13 @@ public class LivreDaoImpl implements LivreDao{
     }
 
     @Override
-    public LivreBean getOneLivre() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getOneLivre'");
+    public LivreBean getOneLivre(Integer id) {
+        return em.find(LivreBean.class, id);
+    }
+
+    @Override
+    public LivreBean updateLivre(LivreBean livre) {
+        return em.merge(livre);
     }
 
 }
