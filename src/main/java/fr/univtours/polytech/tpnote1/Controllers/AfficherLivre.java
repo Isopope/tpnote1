@@ -11,12 +11,10 @@ import jakarta.servlet.http.HttpServletResponse;
 public class AfficherLivre extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("livres.jsp").forward(request, response);
         
     }
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        
-    }
+    
 
 }
