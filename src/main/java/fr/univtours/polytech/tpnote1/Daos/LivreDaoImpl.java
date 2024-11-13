@@ -28,7 +28,7 @@ public class LivreDaoImpl implements LivreDao {
     }
 
     @Override
-    public LivreBean updateLivre(LivreBean livre) {
+    public LivreBean updateBook(LivreBean livre) {
         return em.merge(livre);
     }
 
