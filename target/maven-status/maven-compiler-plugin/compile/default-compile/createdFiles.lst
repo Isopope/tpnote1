@@ -1,2 +1,8 @@
+fr\univtours\polytech\tpnote1\Controllers\AfficherLivre.class
+fr\univtours\polytech\tpnote1\Daos\LivreDaoImpl.class
 fr\univtours\polytech\tpnote1\JakartaRestConfiguration.class
+fr\univtours\polytech\tpnote1\Models\LivreBean.class
+fr\univtours\polytech\tpnote1\Controllers\RendreServlet.class
+fr\univtours\polytech\tpnote1\Controllers\EmprunterServlet.class
 fr\univtours\polytech\tpnote1\resources\JakartaEE10Resource.class
+fr\univtours\polytech\tpnote1\Daos\LivreDao.class

@@ -8,7 +8,7 @@ public interface LivreBusiness {
 
     public List<LivreBean> getAllBooks();
 
-    //Pour la partie Version v1: rendre et emprunter un livre
+    // Pour la partie Version v1: rendre et emprunter un livre
     public void returnBook(Integer bookId);
 
     public void borrowBook(Integer bookId);
