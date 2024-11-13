@@ -1,5 +1,7 @@
 package fr.univtours.polytech.tpnote1.Models;
 
+import java.io.Serializable;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,8 +11,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "BOOK")
-public class LivreBean {
-
+public class LivreBean implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
