@@ -18,7 +18,8 @@
             </tr>
             <tr>
                 <td>test</td>
-                <td>test</td>
+                <c: if "${not empty }"
+                <td><a href=""></a></td>
                 <td>test</td>
 
             </tr>
