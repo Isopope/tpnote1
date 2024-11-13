@@ -13,7 +13,7 @@ public class LivreBusinessImpl implements LivreBusiness {
 
     @Override
     public List<LivreBean> getAllBooks() {
-        return livreDAO.getAllBooks();
+        return livreDAO.getAllLivre();
     }
 
     @Override

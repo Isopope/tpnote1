@@ -28,8 +28,38 @@ public class LivreDaoImpl implements LivreDao {
     }
 
     @Override
+<<<<<<< HEAD
     public LivreBean updateBook(LivreBean livre) {
         return em.merge(livre);
+=======
+    public LivreBean findBookById(Integer bookId) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'findBookById'");
+>>>>>>> 3f5db45a92b374fd8e6f90584fe07e594100afe8
     }
+
+    @Override
+    public void updateBook(LivreBean book) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateBook'");
+    }
+
+    @Override
+    public void deleteBook(Integer bookId) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'deleteBook'");
+    }
+
+    @Override
+    public void saveBook(LivreBean book) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'saveBook'");
+    }
+
+
+    
+
+
+    
 
 }
